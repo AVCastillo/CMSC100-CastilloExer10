@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+#wholeSign{
+    /* position: absolute; */
+    /* background-color:#697184; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.landing-image{
+    height: 100%;
+    width: 60%;
+
+
+}
+.landing-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .signUp-form .beach{
+    position:absolute;
+    height:508.5px;
+    width: 611px;
+    opacity: 0.5;
+} */
+
+
+.form-container{
+   height: 100%;
+   width: 40%;
+   background-color: #282a39;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   color: white;
+   gap: 2rem;
+
+    
+}
+
+.form-container .form1{
+
+    width: 500px;
+    height: 200px;
+    /* background-color: #697184; */
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0.5rem;
+
+
+
+}
+
+
+.form1 .input{
+    border-radius: 20px;
+    height: 45px;
+    width: 70%;
+    padding-left: 1rem;
+}
+
+
+.sl-button{
+    display: flex;
+    gap: 1rem;
+    /* margin-left: 40px;
+    margin-top: 10px; */
+}
+
+.sl-button button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    width: 5rem;
+    height: 2rem;
+}
+
+button:hover{
+    background-color:#697184;
+    /* color:; */
+}
+
+.wholeLogin{
+    /* position: absolute;
+    background-color:#697184; */
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.login-form-cont{
+    
+    height: 100%;
+    width: 40%;
+    background-color: #282a39;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+ 
+     
+ }
+
+
+
+ .login-form-cont .login-form{
+    
+    
+    width: 500px;
+    height: 150px;
+    /* background-color: #697184; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+
+}
+
+
+
+.login-form input{
+    
+    border-radius: 20px;
+    height: 45px;
+    width: 70%;
+    padding-left: 1rem;
+}
+
+.login-button{
+    display: flex;
+    gap: 1rem;
+}
+
+.login-button button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    width: 5rem;
+    height: 2rem;
+}
+
+.login-button button:hover{
+    background-color:#697184;
+    /* color:; */
+}
+
+
+#side-title{
+    margin-left: 80px;
+}
+
+.login-button{
+    margin-left: 35px;
+}
+
+
+
+.feed{
+    height:auto;
+    background:linear-gradient(
+        to bottom,
+        #697184 0vh,
+        #697184 10vh,
+        #1F2833 10vh,
+        #1F2833  100vh
+    );
+}
+.wholeFeed{
+    position:relative;
+    background-color: #1F2833;
+    height: 100vh;
+    /* margin-top: -75px; */
+}
+
+.displayPostsCont{
+    background-color: #C5C6C7;
+    width: 450px;
+    height: auto;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+
+.displayPostsCont .displayPosts{
+    width: 400px;
+    margin-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.displayPosts fieldset{
+    background-color: white;
+    border-radius: 20px;
+    border-style: unset;
+    margin-top: 10px;
+}
+.displayPosts li{
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.displayPosts fieldset button{
+    float: right;
+}
+
+button{
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.addPostCont{
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 300px;
+}
+
+.addPostCont button{
+    margin-left: 190px;
+    width: 70px;
+}
+#tArea{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #697184;
+}
+.Search{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 780px;
+    
+}
+.Search .buttonSearch1{
+   border-radius: 0%;
+   height: 24px;
+   margin-left: 5px;
+}
+.Search .buttonSearch2{
+    border-radius: 0%;
+    margin-left: 1px;
+    height: 24px;
+
+}
+.Search .inputSearch{
+    height: 18px;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-bottom: 18px;
+    border-style:solid;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+.Search .searchOutput li{
+    list-style-type: none;
+    padding: 15px;
+    padding-left: 10px;
+    background-color: #C5C6C7;
+    margin-top: 5px;
+    border-style:solid;
+    border-color: #697184;
+    border-width: 3px;
+}
+
+.Search .searchOutput li fieldset{
+    width: 220px;
+}
+
+.Search .searchOutput li fieldset button{
+    margin-left: 25px;
+}
+.reqs{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 10px;
+  
+}
+
+.reqs li{
+    background-color:#C5C6C7;
+    list-style-type: none;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: #697184;
+    max-width: 220px;
+}
+
+.reqs li .accept-button-req{
+    margin-left: 35px;
+}
+
+.reqs li button{
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+
+.friendPostCont{
+    width: 400px;
+    margin-left: 300px;
+    background-color: #C5C6C7;
+    width: 450px;
+    height: auto;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.friendPostCont .friendPost{
+    width: 400px;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    
+}
+.friendPost li{
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+    
+
+
+.friendPost li fieldset{
+    background-color: white;
+    border-radius: 20px;
+    border-style: unset;
+    margin-top: 10px;
+   
+    
+}
+
+.viewPerson{
+    background:linear-gradient(
+        to right,
+        #1F2833 0%,
+        #1F2833 50%,
+        #697184 50%,
+        #697184 100%
+    );
+    min-height: 100vh;
+
+}
+
+.viewPerson fieldset{
+    
+    width: 500px;
+    margin-left: 250px;
+    height: 50px;
+    background-color: #C5C6C7;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1F2833;
+}
+
+.viewPerson .deetsCont{
+    position: absolute;
+    margin-top:120px;
+}
+
+.viewPerson button{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#fhover1:hover{
+    background-color:#697184;
+    color:aliceblue;
+}
+#fhover2:hover{
+    background-color:#1F2833;
+    color:aliceblue;
+}
+#fhover3:hover{
+    background-color:#697184;
+    color:aliceblue;
+}
+
+.editCont{
+    height: 100vh;
+    background:linear-gradient(
+        to right,
+        #1F2833 0%,
+        #1F2833 50%,
+        #697184 50%,
+        #697184 100%
+    );
+}
+
+/* .editCont .editPost{
+   position: absolute;
+   margin-top: 150px;
+   margin-left: 240px;
+   width: 620px;
+   height:220px ;
+   background-color: white;
+   
+} */
+
+.editCont .editPost fieldset{
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    padding: 50px;
+    border-style: unset;
+    background-color: #697184;
+    margin-left: 220px;
+    margin-top: 150px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#homeLogo{
+    margin-top: 10px;
+    margin-left: -90px;
+}
+
+#settingsLogo{
+    margin-top: 10px;
+    margin-left: 530px;
+}
+
+.feed img:hover{
+    background-color:  #C5C6C7;
+    border-radius: 2px;
+}
+
+.logoutCont{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#logout{
+    border-radius: 0px;
+}
